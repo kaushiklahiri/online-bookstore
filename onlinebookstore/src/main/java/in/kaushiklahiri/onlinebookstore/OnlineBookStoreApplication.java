@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguratio
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@EnableAutoConfiguration(exclude = {HypermediaAutoConfiguration.class})
+//@EnableAutoConfiguration(exclude = {HypermediaAutoConfiguration.class})
 @SpringBootApplication
-@EnableSwagger2
+//@EnableSwagger2
 public class OnlineBookStoreApplication {
 
 	public static void main(String[] args) {
