@@ -9,8 +9,9 @@ import {map} from 'rxjs/operators';
 })
 export class BookService {
 
-  private baseUrl = "http://localhost:8080/api/v1/books?size=100";
-
+  //The below is to cover all the display in a Rest Endpoint call
+  //private baseUrl = "http://localhost:8080/api/v1/books?size=100";
+  private baseUrl = "http://localhost:8080/api/v1/books";
   constructor( private httpClient : HttpClient) { }
 
   getBooks():Observable<Book[]>{
